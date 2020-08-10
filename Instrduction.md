@@ -13,14 +13,17 @@ via a web application.
 ## The Deployment Models of the Cloud
 
   1. Private Cloud:
+  
     . Cloud services used by a single organization, not exposed to the public.
-    . Complete control and Security for sensitive applications
-    . Meet specific business needs
+    . Complete control and Security for sensitive applications.
+    . Meet specific business needs.
     
   2. Public Cloud
+  
     . Cloud resources owned and operated by a thirdparty cloud service provider delivered over the Internet.
     
   3. Hybrid Cloud
-    . Keep some servers on premises and extend some capabilities to the Cloud
-    . Control over sensitive assets in your private infrastructure
+  
+    . Keep some servers on premises and extend some capabilities to the Cloud.
+    . Control over sensitive assets in your private infrastructure.
     . Flexibility and costeffectiveness of the public cloud
