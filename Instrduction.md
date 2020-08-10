@@ -1,14 +1,12 @@
 # Cloud Computing
 
 1. Cloud computing is the on-demand delivery of compute power, database storage,
-applications, and other IT resources
-2. Through a cloud services platform with pay-as-you-go pricing
-3. You can provision exactly the right type and size of computing resources you need
-4. You can access as many resources as you need, almost instantly
-5. Simple way to access servers, storage, databases and a set of application services
-6. Amazon Web Services owns and maintains the network-connected hardware
-required for these application services, while you provision and use what you need
-via a web application.
+applications, and other IT resources.
+2. Through a cloud services platform with pay-as-you-go pricing.
+3. You can provision exactly the right type and size of computing resources you need.
+4. You can access as many resources as you need, almost instantly.
+5. Simple way to access servers, storage, databases and a set of application services.
+6. Amazon Web Services owns and maintains the network-connected hardware required for these application services, while you provision and use what you need via a web application.
 
 ## The Deployment Models of the Cloud
 
@@ -50,17 +48,17 @@ via a web application.
   ## Types of Cloud Computing
     
     1.  Infrastructure as a Service (IaaS)
-        • Provide building blocks for cloud IT
-        • Provides networking, computers, data storage space
-        • Highest level of flexibility
-        • Easy parallel with traditional on-premises IT
+        • Provide building blocks for cloud IT.
+        • Provides networking, computers, data storage space.
+        • Highest level of flexibility.
+        • Easy parallel with traditional on-premises IT.
         
     2.  Platform as a Service (PaaS)
-        • Removes the need for your organization to manage the underlying infrastructure
-        • Focus on the deployment and management of your applications
+        • Removes the need for your organization to manage the underlying infrastructure.
+        • Focus on the deployment and management of your applications.
         
     3.  Software as a Service (SaaS)
-        • Completed product that is run and managed by the service provider
+        • Completed product that is run and managed by the service provider.
         
    ## Pricing of the Cloud – Quick Overview
    
@@ -77,17 +75,17 @@ via a web application.
           
   ## AWS Global Infrastructure
   
-    • AWS Regions
-    • AWS Availability Zones
-    • AWS Data Centers
-    • AWS Edge Locations / Points of Presence
+    • AWS Regions.
+    • AWS Availability Zones.
+    • AWS Data Centers.
+    • AWS Edge Locations / Points of Presence.
     
    **AWS Regions**
         
-    • AWS has Regions all around the world
-    • Names can be us-east-1, eu-west-3…
-    • A region is a cluster of data centers
-    • Most AWS services are region-scoped
+    • AWS has Regions all around the world.
+    • Names can be us-east-1, eu-west-3….
+    • A region is a cluster of data centers.
+    • Most AWS services are region-scoped.
     
    **AWS Availability Zones**
    
@@ -103,7 +101,7 @@ via a web application.
   **AWS Points of Presence (Edge Locations)**
   
    • Amazon has 216 Points of Presence (205 Edge Locations & 11 Regional Caches) in 84 cities across 42 countries.
-   • Content is delivered to end users with lower latency
+   • Content is delivered to end users with lower latency.
     
   ## Tour of the AWS Console
   
@@ -116,9 +114,11 @@ via a web application.
     
   **Most AWS services are Region-scoped:**
   
-    • Amazon EC2 (Infrastructure as a Service)
-    • Elastic Beanstalk (Platform as a Service)
-    • Lambda (Function as a Service)
-    • Rekognition (Software as a Service)
+    • Amazon EC2 (Infrastructure as a Service).
+    • Elastic Beanstalk (Platform as a Service).
+    • Lambda (Function as a Service).
+    • Rekognition (Software as a Service).
     
 **Region Table:**  https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
+
+
