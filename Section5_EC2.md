@@ -61,25 +61,79 @@
       • Dedicated Instances: no other customers will share your hardware.
       
       
-   **EC2 On Demand**
+ **EC2 On Demand**
+ 
             • Pay for what you use:
             • Linux - billing per second, after the first minute.
             • All other operating systems (ex: Windows) - billing per hour.
             • Has the highest cost but no upfront payment.
             • No long-term commitment.
-            • Recommended for short-term and un-interrupted workloads, where you can't predict how the application will behave
+            • Recommended for short-term and un-interrupted workloads, where you can't predict how the application will behave.
             
-   **EC2 Reserved Instances**
+ **EC2 Reserved Instances**
    
-            • Up to 72% discount compared to On-demand
-            • Reservation period: 1 year = + discount | 3 years = +++ discount
-            • Purchasing options: no upfront | partial upfront = + | All upfront = ++ discount
-            • Reserve a specific instance type
-            • Recommended for steady-state usage applications (think database)
+            • Up to 72% discount compared to On-demand.
+            • Reservation period: 1 year = + discount | 3 years = +++ discount.
+            • Purchasing options: no upfront | partial upfront = + | All upfront = ++ discount.
+            • Reserve a specific instance type.
+            • Recommended for steady-state usage applications (think database).
             • Convertible Reserved Instance
-                  • can change the EC2 instance type
-• Up to 45% discount
-• Scheduled Reserved Instances
-• launch within time window you reserve
-• When you require a fraction of day / week / month
-• Commitment for 1 year only
+                  • can change the EC2 instance type.
+                  • Up to 45% discount.
+            • Scheduled Reserved Instances
+                  • launch within time window you reserve.
+                  • When you require a fraction of day / week / month.
+                  • Commitment for 1 year only.
+                  
+**EC2 Spot Instances**
+
+            • Can get a discount of up to 90% compared to On-demand
+            • Instances that you can “lose” at any point of time if your max price is less than the current spot price
+            • The MOST cost-efficient instances in AWS.
+            
+     • Useful for workloads that are resilient to failure
+            • Batch jobs
+            • Data analysis
+            • Image processing
+            • Any distributed workloads
+            • Workloads with a flexible start and end time
+      • Not suitable for critical jobs or databases
+      
+**EC2 Dedicated Hosts**
+ 
+      • An Amazon EC2 Dedicated Host is a physical server with EC2 instance capacity fully dedicated to your use. Dedicated Hosts can help you.
+        address compliance requirements and reduce costs by allowing you to use your existing server-bound software licenses.
+      • Allocated for your account for a 3-year period reservation.
+      • More expensive.
+      • Useful for software that have complicated licensing model (BYOL – Bring Your Own License).
+      • Or for companies that have strong regulatory or compliance needs.
+      
+**EC2 Dedicated Instances**
+ 
+      • Instances running on hardware that’s dedicated to you.
+      • May share hardware with other instances in same account.
+      • No control over instance placement (can move hardware after Stop / Start).
+      
+      
+**Which purchasing option is right for me?**
+
+      • On demand: coming and staying in resort whenever we like, we pay the full price.
+      • Reserved: like planning ahead and if we plan to stay for a long time, we may get a good discount.
+      • Spot instances: the hotel allows people to bid for the empty rooms and the highest bidder keeps the rooms. You can get kicked out at any time.
+      • Dedicated Hosts: We book an entire building of the resort
+      
+**Shared Responsibility Model for EC2**
+
+   *AWS*
+            • Infrastructure (global network security).
+            • Isolation on physical hosts.
+            • Replacing faulty hardware.
+            • Compliance validation.
+            
+   *User*
+           • Security Groups rules.
+           • Operating-system patches and updates.
+           • Software and utilities installed on the EC2 instance.
+           • IAM Roles assigned to EC2 & IAM user access management.
+           • Data security on your instance.
+    
