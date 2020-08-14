@@ -85,7 +85,7 @@
       • BUT you can’t SSH into your instances
       
       
-      ![RDS Architecture](https://github.com/mnadarsh/AWS/blob/master/RDS_Architecture.PNG "RDS Architecure")
+ ![RDS Architecture](https://github.com/mnadarsh/AWS/blob/master/RDS_Architecture.PNG "RDS Architecure")
       
           
     
