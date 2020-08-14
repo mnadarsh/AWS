@@ -86,6 +86,14 @@
       
       
  ![RDS Architecture](https://github.com/mnadarsh/AWS/blob/master/RDS_Architecture.PNG "RDS Architecure")
-      
+  
+   **Amazon Aurora**
+    
+    • Aurora is a proprietary technology from AWS (not open sourced).
+    • PostgreSQL and MySQL are both supported as Aurora DB.
+    • Aurora is “AWS cloud optimized” and claims 5x performance improvement over MySQL on RDS, over 3x the performance of Postgres on RDS.
+    • Aurora storage automatically grows in increments of 10GB, up to 64 TB.
+    • Aurora costs more than RDS (20% more) – but is more efficient.
+    • Not in the free tier
           
     
