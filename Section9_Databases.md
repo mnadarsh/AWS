@@ -91,11 +91,92 @@
     
     • Aurora is a proprietary technology from AWS (not open sourced).
     • PostgreSQL and MySQL are both supported as Aurora DB.
-    • Aurora is “AWS cloud optimized” and claims 5x performance improvement over MySQL on RDS, over 3x performance of Postgres on RDS.
+    • Aurora is “AWS cloud optimized” and claims 5x performance improvement over MySQL on RDS,
+      over 3x performance of Postgres on RDS.
     • Aurora storage automatically grows in increments of 10GB, up to 64 TB.
     • Aurora costs more than RDS (20% more) – but is more efficient.
     • Not in the free tier
           
    **Amazon ElastiCache**
    
+    • The same way RDS is to get managed Relational Databases…
+    • ElastiCache is to get managed Redis or Memcached.
+    • Caches are in-memory databases with high performance, low latency.
+    • Helps reduce load off databases for read intensive workloads.
+    • AWS takes care of OS maintenance / patching, optimizations, setup, configuration, monitoring,
+      failure recovery and backups.
     
+   ![Elastic_cache](https://github.com/mnadarsh/AWS/blob/master/Elastic_Cache.PNG "Elastic_Cache")
+   
+  **DynamoDB**
+  
+    • Fully Managed Highly available with replication across 3 AZ.
+    • NoSQL database - not a relational database.
+    • Scales to massive workloads, distributed “serverless” database.
+    • Millions of requests per seconds, trillions of row, 100s of TB of storage.
+    • Fast and consistent in performance.
+    • Single-digit millisecond latency – low latency retrieval.
+    • Integrated with IAM for security, authorization and administration.
+    • Low cost and auto scaling capabilities.
+   
+  ![Dynamo_DB](https://github.com/mnadarsh/AWS/blob/master/DynamoDB.PNG "Dynamo_DB")
+   
+  **Redshift Overview**
+  
+    • Redshift is based on PostgreSQL, but it’s not used for OLTP.
+    • It’s OLAP – online analytical processing (analytics and data warehousing).
+    • Load data once every hour, not every second.
+    • 10x better performance than other data warehouses, scale to PBs of data.
+    • Columnar storage of data (instead of row based).
+    • Massively Parallel Query Execution (MPP), highly available.
+    • Pay as you go based on the instances provisioned.
+    • Has a SQL interface for performing the queries.
+    • BI tools such as AWS Quicksight or Tableau integrate with it .
+    
+  **Amazon EMR**
+  
+    • EMR stands for “Elastic MapReduce”.
+    • EMR helps creating Hadoop clusters (Big Data) to analyze and process vast amount of data.
+    • The clusters can be made of hundreds of EC2 instances.
+    • Also supports Apache Spark, HBase, Presto, Flink…
+    • EMR takes care of all the provisioning and configuration.
+    • Auto-scaling and integrated with Spot instances.
+    • Use cases: data processing, machine learning, web indexing, big data…
+    
+  **Athena Overview**
+  
+    • Fully Serverless database with SQL capabilities.
+    • Used to query data in S3.
+    • Pay per query.
+    • Output results back to S3.
+    • Secured through IAM.
+    • Use Case: one-time SQL queries, serverless queries on S3, log analytics.
+    
+  **AWS Glue**
+  
+    • Managed extract, transform, and load (ETL) service.
+    • Useful to prepare and transform data for analytics.
+    • Fully serverless service.
+    • Glue Data Catalog: catalog of datasets
+    • can be used by Athena, Redshift, EMR.
+    
+  ![AWS_Glue](https://github.com/mnadarsh/AWS/blob/master/AWS_Glue.PNG "AWS_Glue")  
+  
+ **DMS – Database Migration Service**
+  
+    • Quickly and securely migrate databases to AWS, resilient, self healing.
+    • The source database remains available during the migration.
+    • Supports:
+        • Homogeneous migrations: ex Oracle to Oracle
+        • Heterogeneous migrations: ex Microsoft SQL Server to Aurora.
+    
+ **Databases & Analytics Summary in AWS**
+ 
+    • Relational Databases - OLTP: RDS & Aurora (SQL).
+    • In-memory Database: ElastiCache.
+    • Key/Value Database: DynamoDB (serverless).
+    • Warehouse - OLAP: Redshift (SQL).
+    • Hadoop Cluster: EMR.
+    • Athena: query data on Amazon S3 (serverless & SQL).
+    • Glue: Managed ETL (Extract Transform Load) and Data Catalog service.
+    • Database Migration: DMS.
