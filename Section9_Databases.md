@@ -85,7 +85,7 @@
       • BUT you can’t SSH into your instances
       
       
- ![RDS Architecture](https://github.com/mnadarsh/AWS/blob/master/RDS_Architecture.PNG "RDS Architecure")
+ ![RDS Architecture](https://github.com/mnadarsh/AWS/blob/master/Images/RDS_Architecture.PNG "RDS Architecure")
   
    **Amazon Aurora**
     
@@ -106,7 +106,7 @@
     • AWS takes care of OS maintenance / patching, optimizations, setup, configuration, monitoring,
       failure recovery and backups.
     
-   ![Elastic_cache](https://github.com/mnadarsh/AWS/blob/master/Elastic_Cache.PNG "Elastic_Cache")
+   ![Elastic_cache](https://github.com/mnadarsh/AWS/blob/master/Images/Elastic_Cache.PNG "Elastic_Cache")
    
   **DynamoDB**
   
@@ -119,7 +119,7 @@
     • Integrated with IAM for security, authorization and administration.
     • Low cost and auto scaling capabilities.
    
-  ![Dynamo_DB](https://github.com/mnadarsh/AWS/blob/master/DynamoDB.PNG "Dynamo_DB")
+  ![Dynamo_DB](https://github.com/mnadarsh/AWS/blob/master/Images/DynamoDB.PNG "Dynamo_DB")
    
   **Redshift Overview**
   
@@ -160,7 +160,7 @@
     • Glue Data Catalog: catalog of datasets
     • can be used by Athena, Redshift, EMR.
     
-  ![AWS_Glue](https://github.com/mnadarsh/AWS/blob/master/AWS_Glue.PNG "AWS_Glue")  
+  ![AWS_Glue](https://github.com/mnadarsh/AWS/blob/master/Images/AWS_Glue.PNG "AWS_Glue")  
   
  **DMS – Database Migration Service**
   
