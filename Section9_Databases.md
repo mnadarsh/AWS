@@ -160,7 +160,7 @@
     • Glue Data Catalog: catalog of datasets
     • can be used by Athena, Redshift, EMR.
     
-  ![AWS_Glue](https://github.com/mnadarsh/AWS/blob/master/Images/AWS_Glue.PNG "AWS_Glue")  
+ ![AWS_Glue](https://github.com/mnadarsh/AWS/blob/master/Images/AWS_Glue.PNG "AWS_Glue")  
   
  **DMS – Database Migration Service**
   
