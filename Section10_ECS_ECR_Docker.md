@@ -23,7 +23,7 @@
       • NodeJS, Java…
     • Private: Amazon ECR (Elastic Container Registry).
   
-  ![Docker](https://github.com/mnadarsh/AWS/blob/master/Docker.PNG "Docker")
+  ![Docker](https://github.com/mnadarsh/AWS/blob/master/Images/Docker.PNG "Docker")
   
   **Docker versus Virtual Machines**
   
@@ -40,7 +40,7 @@
      • AWS takes care of starting / stopping containers.
      • Has integrations with the Application Load Balancer.
   
- ![ECS](https://github.com/mnadarsh/AWS/blob/master/Images/Images/ECS.PNG "ECS")
+ ![ECS](https://github.com/mnadarsh/AWS/blob/master/Images/ECS.PNG "ECS")
  
  **Fargate**
  
