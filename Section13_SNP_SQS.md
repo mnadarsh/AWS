@@ -32,3 +32,36 @@
   ![sqs](https://github.com/mnadarsh/AWS/blob/master/Images/sqs.PNG "sqs")
   
   ![sqs_decouple](https://github.com/mnadarsh/AWS/blob/master/Images/sqs_decouple.PNG "sqs")
+  
+**Amazon SNS**
+
+    • What if you want to send one message to many receivers?
+    
+    • The “event publishers” only sends message to one SNS topic.
+    • As many “event subscribers” as we want to listen to the SNS topic notifications.
+    • Each subscriber to the topic will get all the messages.
+    • Up to 10,000,000 subscriptions per topic, 100,000 topics limit.
+    
+    • SNS Subscribers can be:
+       • HTTP / HTTPS (with delivery retries – how many times).
+       • Emails, SMS messages, Mobile Notifications.
+       • SQS queues (fan-out pattern), Lambda Functions (write-your-own integration).
+       
+   ![sns](https://github.com/mnadarsh/AWS/blob/master/Images/sns.PNG "sns")
+   
+ **Integration Section – Summary**
+ 
+    • SQS:  
+    
+       • Queue service in AWS.
+       • Multiple Producers, messages are kept up to 14 days.
+       • Multiple Consumers share the read and delete messages when done.
+       • Used to decouple applications in AWS.
+       
+    • SNS:
+    
+       • Notification service in AWS.
+       • Subscribers: Email, Lambda, SQS, HTTP, Mobile…
+       • Multiple Subscribers, send all messages to all of them.
+       • No message retention.
+    
