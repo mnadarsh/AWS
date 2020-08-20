@@ -4,14 +4,17 @@
 
     • A global application is an application deployed in multiple geographies.
     • On AWS: this could be Regions and / or Edge Locations.
+    
     • Decreased Latency
         • Latency is the time it takes for a network packet to reach a server.
         • It takes time for a packet from Asia to reach the US.
         • Deploy your applications closer to your users to decrease latency, better experience.
+        
     • Disaster Recovery (DR)
         • If an AWS region goes down (earthquake, storms, power shutdown, politics)…
         • You can fail-over to another region and have your application still working.
         • A DR plan is important to increase the availability of your application.
+        
     • Attack protection: distributed global infrastructure is harder to attack.
 
 **Global AWS Infrastructure**
@@ -37,8 +40,8 @@
         • Accelerate global uploads & downloads into Amazon S3.
         
     • AWS Global Accelerator:
-    • Improve global application availability and performance using the AWS global
-      network.
+        • Improve global application availability and performance using the AWS global
+          network.
       
 **Amazon Route 53 Overview**
 
@@ -149,6 +152,6 @@
        • Accelerate global uploads & downloads into Amazon S3.
        
     • AWS Global Accelerator:
-    • Improve global application availability and performance using the AWS global
-      network.
+        • Improve global application availability and performance using the AWS global
+          network.
       
